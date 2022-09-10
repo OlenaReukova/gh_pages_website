@@ -1,2 +1,2 @@
 # gh_pages_website
-myweb site on the internet
+my website on the internet
