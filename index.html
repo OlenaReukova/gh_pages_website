@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Olena Reukova</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<nav class="navbar">
+      <div class="container">
+        <div class="navbar__wrap">
+          <div class="hamb">
+            <div class="hamb__field" id="hamb">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </div>
+          <a href="#" class="logo" id="logo">olena</a>
+          <ul class="menu" id="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#passion">Passion</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+ 
+<div class="popup" id="popup"></div>
+ 
+</header>
+
+<main class="main">
+  <section id="Home">
+    <h1>Hi! I'm Olena, nice to meet you.</h1>
+    <p>
+    <h2 class="big-heading">Welcome!</h2>
+    </p>
+  </section>
+  <section id="about">
+  <h2>About</h2>
+  <p>I am from Ukraine, I love photography and making short films on mobile phone. I enjoy outdoor activities. I have a dog.</p>
+   <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://live.staticflickr.com/65535/52250628942_282e699676_b.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://live.staticflickr.com/65535/52251452486_0248d5674f_c.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="https://live.staticflickr.com/65535/52250624127_62755f176e_k.jpg" style="width:100%">
+  <div class="text"></div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+  <p>I moved to the UK in April 2022 and I have been living in Brixton, very nice and beautiful place in the south of London. It has  unique atmosphere and charm which you can see in my video.</p>
+  <div id="video"> 
+    <iframe title="YouTube video player" width="560" height="315" src="https://www.youtube.com/embed/nSfedzk3Pr4" style="border: 0;" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+</section>
+<section id="skills">
+  <h2>Skills</h2>
+  <p>I was a Manager at big FMCG companies in Ukraine, also I have MSc in Electrical Engineering. Since moving to London I have been studiing coding to make a career change into the tech industry. I think my skills in communication, solving problems and engineering knowledge will be very useful in Front-End Developing. </p>
+  <p><img src="https://www.adriasolutions.co.uk/wp-content/uploads/2020/09/technology_career-1024x493.png" style="width:100%"></p>
+</section>
+<section id="passion">
+  <h2>Passion</h2>
+  <p>Frontend Web development for me is one of the ways I can impact people lives globally in the World. As a creative person I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.</p>
+  </section>
+<section id="contacts">
+  <h2>Get in touch</h2>
+  <p>Have a question or want to work together?</p>
+  <form class="form_contact">
+  <input id="text" type="text" name="text" placeholder="Name" required><br>
+ <input id="email" type="email" name="email" placeholder="Email" required pattern="+@globex\.com" size="30"><br>
+  <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your message here..."></textarea><br>
+  <div>
+    <button type="submit" id="submit" value="Submit" class="btn">Submit</button>
+  </div>
+  </form>
+  </section>
+  </main>
+
+<footer>
+  <div class="c-site-footer">
+    <ul>
+    <li><a href="#">Privacy Policy</a></li>
+    </ul>
+    <div class="footnote">Designed & Built by Olena Reukova</div>
+      </div>
+</footer>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
